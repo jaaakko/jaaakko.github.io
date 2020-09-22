@@ -1,0 +1,64 @@
+<!DOCTYPE HTML> <!--Kommentti, tagit määrittää html version HTML5:ksi-->
+<html lang = "fi">
+    <head>        
+        <title>Demo 6</title>
+        <meta charset ="UTF-8">
+    </head>
+    <body>
+    <h1>Lomake</h1>
+
+
+    <form action ="https://www.leeniemi.net/julkiset19/luelomake.php" method="post">
+    
+        Etunimi<br>
+        <input type = "text" name = "enimi" id = "enimi"><br>
+
+        Sukunimi<br>
+        <input type = "text" name = "snimi" id = "snimi"><br>
+
+        Äidinkieli<br>
+        <input type = "radio" name = "kieli" id = "kieli" value = "suomi">suomi<br>
+        <input type = "radio" name = "kieli" id = "kieli" value = "ruotsi">ruotsi<br>
+        <input type = "radio" name = "kieli" id = "kieli" value = "venaja">venäjä<br>
+        <br>
+
+        Muu kielitaito<br>
+        <input type = "checkbox" name = "suomi" id = "suomi">suomi<br>
+        <input type = "checkbox" name = "ruotsi" id = "ruotsi">ruotsi<br>
+        <input type = "checkbox" name = "saksa" id = "saksa">saksa<br>
+        <input type = "checkbox" name = "venaja" id = "venaja">venaja<br>
+        <input type = "checkbox" name = "englanti" id = "englanti">englanti<br>
+        <br>
+
+        Syntymävuosi
+        <select name = "vuosi">
+            <option value = "1998">1998</option>
+            <option value = "1999">1999</option>
+            <option value = "2000">2000</option>
+            <option value = "2001">2001</option>
+            <option value = "2002">2002</option>
+            <option value = "2003">2003</option>
+            <option value = "2004">2004</option>
+        </select>
+        <br>
+        <textarea name = "vapaa">
+
+        </textarea>
+        <br>
+
+        <input type = "color"><br>
+        <input type = "date" required><br>
+        Email
+        <input type = "email" required><br>
+
+        Salasana<br>
+        <input type = "password" name = "password"><br>
+
+        <input type = "reset" value = "Tyhjennä lomake">
+        <input type = "submit" value = "Lähetä tiedot">
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+}
+
+th {
+    font-size: 2em;
+}
+
+section {
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+div {
+    height: 14.285%;
+}
+
+#otsikko {
+    height: 20vh;
+    padding: 30px;
+    text-align: center;
+}
+
+#lounaslista {
+    background-color: lightgray;
+    height: 100%;
+}
+
+.paivanteksti {
+    justify-content: left;
+    width: 30%;
+}
+
+.paivankuva {
+    display: block;
+}
+
+#maanantai {
+    display: flex;
+}
+
+#tiistai {
+    display: flex;
+}
+
+#keskiviikko {
+    display: flex;
+}
+
+#torstai {
+    display: flex;
+}
+
+#perjantai {
+    display: flex;
+}
+
+#aukiolo {
+    display: flex;
+    height: 100%;
+}
+
+#aukioloajat {
+    justify-content: left;
+}
+
+#yhteystiedot {
+    background-color: lightgray;
+    height: 100%;
+}

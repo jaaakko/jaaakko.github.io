@@ -1,59 +1,111 @@
 <!DOCTYPE HTML> <!--Kommentti, tagit määrittää html version HTML5:ksi-->
 <html lang = "fi">
     <head>        
-        <title>Harj 2</title>
+        <title>Ravintola Oula</title>
         <meta charset ="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/cssharj2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+        
     </head>
     <body>
-        <h1>Lappilainen ravintola Oula</h1>
+    <section id = "otsikko">
+        <h1>Ravintola Oula</h1>
         <br>
-        <h2>Lounaslista:</h2>
-        <p>Lounas maksaa 11 euroa, sisältää lounaan ja ruokajuoman (vesi, kotikalja, maito)</p><br>
+    </section>
+    <section id = "lounaslista">
+            <h2>Lounaslista:</h2>
+            <p>Lounas maksaa 11 euroa, sisältää lounaan ja ruokajuoman (vesi, kotikalja, maito)</p><br>
         <ul>
-            <li>Maanantai<br>
-            <br>
-            Juusto-vihanneskeittoa ja kokin sämpylä<br>
-            Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia<br>
-            Marjakiisseliä ja hunajakermavaahtoa<br>
-            </li>
-            <br>
+            <div id = "maanantai">
+                <div class = "paivanteksti"> 
+                        <li>Maanantai<br>
+                        <br>
+                        Juusto-vihanneskeittoa ja kokin sämpylä<br>
+                        Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia<br>
+                        Marjakiisseliä ja hunajakermavaahtoa<br>
+                        </li>
+                        <br>
+                </div>
+                <div class = "paivankuva">
+                        <img src = "./kuvat/kasviskeitto.jpg" alt = "juustovihanneskeitto">
+                        Kuva 1: Pixabay.
+                </div>
+            </div>
+            <div id = "tiistai">
+                <div class = "paivanteksti"> 
+                    
+                        <li>Tiistai<br>
+                        <br>
+                        Kana-fetajustosalaattia ja kokin sämpylä<br>
+                        Paistettua punakampelaa, pinaattikastiketta ja perunamuusia<br>
+                        Pannukakkua, mansikkahilloa ja kermavaahtoa<br>
+                        </li>
+                        <br>
+                </div>
+                <div class = "paivankuva">
+                        <img src = "./kuvat/salaatti.jpg" alt = "kanasalaatti">
+                        Kuva 2: Pixabay.
+                </div>
+
+            </div>
+            <div id = "keskiviikko">
+                <div class = "paivanteksti"> 
+                        
+                        <li>Keskiviikko<br>
+                        <br>
+                        Tomaatti-yrttikeittoa ja kokin sämpylä<br>
+                        Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia<br>
+                        Omenapiirakkaa ja vaniljakastiketta<br>
+                        </li>
+                        <br>
+                </div>
+                <div class = "paivankuva">
+                        <img src = "./kuvat/tomaattikeitto.jpg" alt = "tomaattikeitto">
+                        Kuva 3: Pixabay.
+                </div>
+
+            </div>        
+            <div id = "torstai">
+                <div class = "paivanteksti"> 
+                    
+                        <li>Torstai<br>
+                        <br>
+                        Rapukeittoa ja kokin sämpylä<br>
+                        Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja<br>
+                        Hedelmäsalaattia ja kinuskikastiketta<br>
+                        </li>
+                        <br>
+                </div>
+                <div class = "paivankuva">
+                        <img src = "./kuvat/poronkaristys.jpg" alt = "poronkäristys">
+                        Kuva 4: https://www.kodinkuvalehti.fi/reseptit/liha-padat-ja-laatikot/poronkaristys. Ninna Lindström.
+                </div>
             
-            <li>Tiistai<br>
-            <br>
-            Kana-fetajustosalaattia ja kokin sämpylä<br>
-            Paistettua punakampelaa, pinaattikastiketta ja perunamuusia<br>
-            Pannukakkua, mansikkahilloa ja kermavaahtoa<br>
-            </li>
-            <br>
-            
-            <li>Keskiviikko<br>
-            <br>
-            Tomaatti-yrttikeittoa ja kokin sämpylä<br>
-            Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia<br>
-            Omenapiirakkaa ja vaniljakastiketta<br>
-            </li>
-            <br>
-            
-            <li>Torstai<br>
-            <br>
-            Rapukeittoa ja kokin sämpylä<br>
-            Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja<br>
-            Hedelmäsalaattia ja kinuskikastiketta<br>
-            </li>
-            <br>
-            
-            <li>Perjantai<br>
-            <br>
-            Savulohisalaatti ja kokin sämpylä<br>
-            Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia<br>
-            Suklaamousse<br>
-            </li>
-            <br>
+            </div>
+            <div id = "perjantai">
+                <div class = "paivanteksti"> 
+
+                        <li>Perjantai<br>
+                        <br>
+                        Savulohisalaatti ja kokin sämpylä<br>
+                        Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia<br>
+                        Suklaamousse<br>
+                        </li>
+                        <br>
+                </div>
+                <div class = "paivankuva">
+                        <img src="./kuvat/lohisalaatti.jpg" alt = "lohisalaatti">
+                        Kuva 5: Pixabay.
+                </div>
+            </div>
         </ul>
-            <p>
-                <img src = "./kuvat/kasviskeitto.jpg" alt = "juustovihanneskeitto"><img src = "./kuvat/salaatti.jpg" alt = "kanasalaatti"><img src = "./kuvat/tomaattikeitto.jpg" alt = "tomaattikeitto"><img src = "./kuvat/poronkaristys.jpg" alt = "poronkäristys"><img src="./kuvat/lohisalaatti.jpg" alt = "lohisalaatti">
-                Kuva 1: Pixabay.<br>Kuva 2: Pixabay.<br>Kuva 3: Pixabay.<br>Kuva 4: https://www.kodinkuvalehti.fi/reseptit/liha-padat-ja-laatikot/poronkaristys. Ninna Lindström.<br>Kuva 5: Pixabay.
-            </p>
+            <br>
+    </section>
+    <section id = "aukiolo">
+            <br>
+        <div id = "aukioloajat">
             <table>
                 <tr>
                     <th>Aukioloajat</th>
@@ -71,9 +123,12 @@
                     <td>17:00-21:00</td>
                   </tr>
             </table>
+        </div>
+    </section>
+    <section id = "yhteystiedot">
             <br>
         <address>
-            <h3>Yhteystiedot</h3><br>
+            <h2>Yhteystiedot</h2><br>
             Ravintola Oula<br>
             Hallituskatu 12<br>
             96200 ROVANIEMI<br>
@@ -82,4 +137,5 @@
             Fax (016) 555 4756<br>
             E-Mail: ravintola.oula@oulanet.fi<br>
         </address>
+    </section>
     </body>

@@ -16,17 +16,18 @@
     </section>
     <section id = "lounaslista">
             <h2>Lounaslista:</h2>
-            <p>Lounas maksaa 11 euroa, sisältää lounaan ja ruokajuoman (vesi, kotikalja, maito)</p><br>
-        <ul>
+            <p>Lounas maksaa 11 euroa, sisältää lounaan ja ruokajuoman (vesi, kotikalja, maito)</p><br><br>
+        <div>
             <div id = "maanantai">
-                <div class = "paivanteksti"> 
-                        <li>Maanantai<br>
-                        <br>
-                        Juusto-vihanneskeittoa ja kokin sämpylä<br>
-                        Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia<br>
-                        Marjakiisseliä ja hunajakermavaahtoa<br>
-                        </li>
-                        <br>
+                <div class = "paivanteksti">
+                    <ul>
+                        <li class="paivanotsikko">Maanantai</li>
+                    </ul>
+                    <ul class="paivanruoka">
+                        <li>Juusto-vihanneskeittoa ja kokin sämpylä</li>
+                        <li >Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia</li>
+                        <li>Marjakiisseliä ja hunajakermavaahtoa</li>
+                    </ul>
                 </div>
                 <div class = "paivankuva">
                         <img src = "./kuvat/kasviskeitto.jpg" alt = "juustovihanneskeitto">
@@ -34,15 +35,15 @@
                 </div>
             </div>
             <div id = "tiistai">
-                <div class = "paivanteksti"> 
-                    
-                        <li>Tiistai<br>
-                        <br>
-                        Kana-fetajustosalaattia ja kokin sämpylä<br>
-                        Paistettua punakampelaa, pinaattikastiketta ja perunamuusia<br>
-                        Pannukakkua, mansikkahilloa ja kermavaahtoa<br>
-                        </li>
-                        <br>
+                <div class = "paivanteksti">
+                    <ul>
+                    <li class="paivanotsikko">Tiistai</li>
+                    </ul>
+                    <ul class="paivanruoka">
+                        <li>Kana-fetajustosalaattia ja kokin sämpylä</li>
+                        <li>Paistettua punakampelaa, pinaattikastiketta ja perunamuusia</li>
+                        <li>Pannukakkua, mansikkahilloa ja kermavaahtoa</li>
+                    </ul>
                 </div>
                 <div class = "paivankuva">
                         <img src = "./kuvat/salaatti.jpg" alt = "kanasalaatti">
@@ -52,14 +53,14 @@
             </div>
             <div id = "keskiviikko">
                 <div class = "paivanteksti"> 
-                        
-                        <li>Keskiviikko<br>
-                        <br>
-                        Tomaatti-yrttikeittoa ja kokin sämpylä<br>
-                        Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia<br>
-                        Omenapiirakkaa ja vaniljakastiketta<br>
-                        </li>
-                        <br>
+                    <ul>
+                        <li class="paivanotsikko">Keskiviikko</li>
+                    </ul>
+                    <ul class="paivanruoka">
+                        <li>Tomaatti-yrttikeittoa ja kokin sämpylä</li>
+                        <li>Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia</li>
+                        <li>Omenapiirakkaa ja vaniljakastiketta</li>
+                    </ul>
                 </div>
                 <div class = "paivankuva">
                         <img src = "./kuvat/tomaattikeitto.jpg" alt = "tomaattikeitto">
@@ -69,14 +70,14 @@
             </div>        
             <div id = "torstai">
                 <div class = "paivanteksti"> 
-                    
-                        <li>Torstai<br>
-                        <br>
-                        Rapukeittoa ja kokin sämpylä<br>
-                        Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja<br>
-                        Hedelmäsalaattia ja kinuskikastiketta<br>
-                        </li>
-                        <br>
+                    <ul>
+                        <li class="paivanotsikko">Torstai</li>
+                    </ul>
+                    <ul class="paivanruoka">
+                        <li>Rapukeittoa ja kokin sämpylä</li>
+                        <li>Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja</li>
+                        <li>Hedelmäsalaattia ja kinuskikastiketta</li>
+                    </ul>
                 </div>
                 <div class = "paivankuva">
                         <img src = "./kuvat/poronkaristys.jpg" alt = "poronkäristys">
@@ -86,30 +87,29 @@
             </div>
             <div id = "perjantai">
                 <div class = "paivanteksti"> 
-
-                        <li>Perjantai<br>
-                        <br>
-                        Savulohisalaatti ja kokin sämpylä<br>
-                        Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia<br>
-                        Suklaamousse<br>
-                        </li>
-                        <br>
+                    <ul>
+                        <li class="paivanotsikko">Perjantai</li>
+                    </ul>
+                    <ul class="paivanruoka">
+                        <li>Savulohisalaatti ja kokin sämpylä</li>
+                        <li>Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia</li>
+                        <li>Suklaamousse</li>
+                    </ul>
                 </div>
                 <div class = "paivankuva">
                         <img src="./kuvat/lohisalaatti.jpg" alt = "lohisalaatti">
                         Kuva 5: Pixabay.
                 </div>
             </div>
-        </ul>
+        </div>
             <br>
     </section>
     <section id = "aukiolo">
             <br>
         <div id = "aukioloajat">
+            
+            <h2>Aukioloajat</h2>
             <table>
-                <tr>
-                    <th>Aukioloajat</th>
-                  </tr>
                   <tr>
                     <td><b>MA-PE: </b></td>
                     <td>10:30-15:00</td>
@@ -127,8 +127,10 @@
     </section>
     <section id = "yhteystiedot">
             <br>
+
+        <h2>Yhteystiedot</h2><br>
         <address>
-            <h2>Yhteystiedot</h2><br>
+
             Ravintola Oula<br>
             Hallituskatu 12<br>
             96200 ROVANIEMI<br>

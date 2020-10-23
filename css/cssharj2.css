@@ -19,6 +19,11 @@ th {
     font-size: 2em;
 }
 
+li {
+    padding: 1vh;
+}
+
+
 section {
     height: 100vh;
     padding-top: 40px;
@@ -30,6 +35,7 @@ section {
 div {
     height: 14.285%;
 }
+
 
 #otsikko {
     height: 20vh;
@@ -83,4 +89,12 @@ div {
 #yhteystiedot {
     background-color: lightgray;
     height: 100%;
+}
+
+.paivanotsikko {
+    padding-bottom: 2.5vh;
+    font-size: 1.2em
+}
+.paivanruoka {
+    list-style: none;
 }

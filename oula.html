@@ -5,11 +5,13 @@
         <meta charset ="UTF-8">
         <link rel="stylesheet" type="text/css" href="./css/cssharj2.css">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=DM+Sans:wght@500&display=swap" rel="stylesheet">
-
+        <script type = "text/javascript" src = "oula.js" ></script>
 
         
     </head>
     <body>
+
+    <button onclick="topFunction()" id = "top" title="Go to top">Takaisin ylös</button>
 
     <section id = "otsikko">
         <h1>Ravintola Oula</h1>
@@ -148,4 +150,25 @@
             E-Mail: ravintola.oula@oulanet.fi<br>
         </address>
     </section>
+    <script>
+            //Get the button
+            var mybutton = document.getElementById("top");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
     </body>

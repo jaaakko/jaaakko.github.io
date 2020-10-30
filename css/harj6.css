@@ -1,0 +1,67 @@
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 12fr 3fr 2fr ;
+    grid-template-rows: 15vh 10vh auto 15vh;
+    grid-template-areas:
+    "head head head"
+    "navi navi navi"
+    "article1 figure1 aside1"
+    "foot foot foot";
+
+}
+
+header {
+    background: royalblue;
+    grid-area: head;
+}
+
+nav {
+    background: slateblue;
+    grid-area: navi;
+}
+
+article {
+    background: teal;
+    grid-area: article1;
+    width: 7fr;
+}
+
+figure {
+    background: violet;
+    grid-area: figure1;
+    width: 3fr;
+}
+
+aside {
+    background: mediumseagreen;
+    grid-area: aside1;
+    width: 2fr;
+}
+
+footer {
+    background: magenta;
+    grid-area: foot;
+}
+
+@media screen and (max-width: 50rem) {
+    article {
+        grid-column-end: article;
+
+    }
+    figure {
+        grid-column-start: figure;
+    }
+    aside {
+        grid-column-start: maside;
+    }
+
+}

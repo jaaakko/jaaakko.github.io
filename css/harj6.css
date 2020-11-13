@@ -6,62 +6,196 @@
 }
 
 div.container {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 12fr 3fr 2fr ;
-    grid-template-rows: 15vh 10vh auto 15vh;
-    grid-template-areas:
-    "head head head"
-    "navi navi navi"
-    "article1 figure1 aside1"
-    "foot foot foot";
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 100%;
 
 }
 
 header {
-    background: royalblue;
-    grid-area: head;
+    height: 12%;
+    flex: 100%;
+    background: blue;
 }
 
 nav {
-    background: slateblue;
-    grid-area: navi;
+    height: 5%;
+    flex: 100%;
+    background: teal;
+
 }
 
 article {
-    background: teal;
-    grid-area: article1;
-    width: 7fr;
-}
+    height: 78%;
+    flex: 58.33333%;
+    background: thistle;
 
+}
 figure {
+    height: 78%;
+    flex: 25%;
     background: violet;
-    grid-area: figure1;
-    width: 3fr;
 }
 
 aside {
-    background: mediumseagreen;
-    grid-area: aside1;
-    width: 2fr;
+    height: 78%;
+    flex: 16.666666%;
+    background: tomato;
 }
 
 footer {
-    background: magenta;
-    grid-area: foot;
+    height: 5%;
+    flex: 100%;
+    background: turquoise;
 }
 
-@media screen and (max-width: 50rem) {
-    article {
-        grid-column-end: article;
+@media screen and (max-width: 768px)
+    {
+        div.container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            max-height: 100vh;
+        
+        }
+        
+        header {
+            height: 8%;
+            flex: 100%;
+            background: blue;
+        }
+        
+        nav {
+            height: 4%;
+            flex: 100%;
+            background: teal;
+        
+        }
+        
+        article {
+            height: 69%;
+            flex: 58.33333%;
+            background: thistle;
+        
+        }
+        figure {
+            height: 69%;
+            flex: 25%;
+            background: violet;
+        }
+        
+        aside {
+            height: 15%;
+            flex: 100%;
+            background: tomato;
+        }
+        
+        footer {
+            height: 4%;
+            flex: 100%;
+            background: turquoise;
+        }
+    }
 
-    }
-    figure {
-        grid-column-start: figure;
-    }
-    aside {
-        grid-column-start: maside;
+    @media screen and (max-width: 512px)
+    {
+        div.container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            max-height: 100vh;
+        
+        }
+        
+        header {
+            height: 10%;
+            flex: 100%;
+            background: blue;
+        }
+        
+        nav {
+            height: 5%;
+            flex: 100%;
+            background: teal;
+        
+        }
+        
+        article {
+            height: 80%;
+            flex: 100%;
+            background: thistle;
+        
+        }
+        figure {
+            height: 69%;
+            flex: 25%;
+            background: violet;
+            display: none;
+        }
+        
+        aside {
+            height: 15%;
+            flex: 100%;
+            background: tomato;
+            display: none;
+        }
+        
+        footer {
+            height: 5%;
+            flex: 100%;
+            background: turquoise;
+        }
     }
 
-}
+    @media screen and (max-width: 375px)
+    {
+        div.container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            max-height: 100vh;
+        
+        }
+        
+        header {
+            height: 15%;
+            flex: 100%;
+            background: blue;
+        }
+        
+        nav {
+            height: 10%;
+            flex: 100%;
+            background: teal;
+        
+        }
+        
+        article {
+            height: 75%;
+            flex: 100%;
+            background: thistle;
+            
+        
+        }
+        figure {
+            height: 69%;
+            flex: 25%;
+            background: violet;
+            display: none;
+        }
+        
+        aside {
+            height: 15%;
+            flex: 100%;
+            background: tomato;
+            display: none;
+        }
+        
+        footer {
+            height: 4%;
+            flex: 100%;
+            background: turquoise;
+            display: none;
+        }
+    }

@@ -3,7 +3,7 @@ body {
 }
 
 a {
-        background-color: #4CAF50;
+        background-color:  rgb(56, 56, 141);
         border: none;
         color: white;
         padding: 16px 32px;
@@ -16,11 +16,25 @@ a {
         cursor: pointer;
         background-color: white; 
         color: black; 
-        border: 2px solid #4CAF50;
+        border: 2px solid rgb(56, 56, 141);
         border-radius: 4px;
         width: 10vw;
 }
 a:hover {
-    background-color: #4CAF50;
+    background-color: rgb(56, 56, 141);
     color: white;
+}
+
+#palautukset {
+    display: flex;
+}
+
+#demot {
+    flex: 0;
+    padding: 2%;
+}
+
+#harjoitukset {
+    flex: 1;
+    padding: 2%;
 }

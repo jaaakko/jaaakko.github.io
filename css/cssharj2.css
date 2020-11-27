@@ -130,12 +130,25 @@ div {
 }
 
 #aukioloajat {
-    justify-content: left;
+justify-content: left;
 }
 
+
 #yhteystiedot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     background-color: lightgray;
     height: 100%;
+}
+#osoite {
+    flex: 0,0,100%;
+    padding: 2%;
+}
+#kartta {
+    flex: 0,0,100%;
+    padding: 2%;
 }
 
 .paivanotsikko {

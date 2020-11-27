@@ -1,0 +1,17 @@
+#ylaosa {
+    background-image: url(../kuvat/polle.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#logo {
+    padding-left: 0;
+}
+
+#tietoteksti {
+    width: 60%;
+
+}

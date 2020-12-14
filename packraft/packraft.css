@@ -4,6 +4,14 @@ body {
     font-family: 'Andika New Basic', sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+
 #container {
     display: flex;
     flex-direction: row;
@@ -17,13 +25,48 @@ body {
     border-radius: 4px;
     
 }
+div#navi {
+    margin: 1.5%;
+}
+
+ul.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    li.navi {
+    float: left;
+}
+
+    li.navi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    /* Change the link color to #111 (black) on hover */
+    li.navi a:hover {
+    background-color: #111;
+}
+
 #keskiosa {
     justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tietoboxi {
     flex: 1 1 35%;
     margin: 1.5%;
+    background-color: #84b1c4;
+    border-radius: 4px;
+    padding: 0.5%;
 
 }
 

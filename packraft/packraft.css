@@ -1,4 +1,34 @@
+/* #84b1c4
+    132, 177, 196 */
+body {
+    font-family: 'Andika New Basic', sans-serif;
+}
+
 #container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.otsikko {
+    flex: 100%;
+    background-color: #84b1c4;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+#keskiosa {
+    justify-content: space-around;
+}
+
+.tietoboxi {
+    flex: 1 1 35%;
+    margin: 1.5%;
+
+}
+
+#kuvagalleria {
+    flex: 1 1 35%;
+    margin: 1.5%;
+
 }

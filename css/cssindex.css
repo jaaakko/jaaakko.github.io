@@ -1,8 +1,9 @@
 body {
     margin: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-a {
+/*a {
         background-color:  rgb(56, 56, 141);
         border: none;
         color: white;
@@ -23,18 +24,26 @@ a {
 a:hover {
     background-color: rgb(56, 56, 141);
     color: white;
-}
+}*/
 
-#palautukset {
+#container {
     display: flex;
 }
 
-#demot {
-    flex: 0;
+#harjoitukset {
+    flex: 1;
     padding: 2%;
 }
 
-#harjoitukset {
+h3 {
+    padding-top: 10px;
+}
+
+#otsikko {
+    text-align: center;
+}
+
+#tietoa {
     flex: 1;
     padding: 2%;
 }
